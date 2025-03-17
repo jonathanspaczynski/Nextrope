@@ -18,7 +18,7 @@ async function setup() {
   factory = await AgreementFactory.deploy(token.target);
 }
 
-describe("AgreementFactory", function () {
+describe("Agreement", function () {
   before(async function () {
     await setup();
   });
